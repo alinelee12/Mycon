@@ -1,0 +1,15 @@
+@use '../custom' as *;
+footer{
+    background-color: $grey;
+    h5{
+        color: $purple;
+        font-weight: 600;
+        margin-bottom:1.5rem;
+    }
+    p{
+        line-height: .8rem;;
+    }
+    @media (max-width: 767.98px) { 
+        text-align: center;
+    }
+}
